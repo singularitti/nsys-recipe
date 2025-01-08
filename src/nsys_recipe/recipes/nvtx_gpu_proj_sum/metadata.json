@@ -1,0 +1,9 @@
+{
+    "module_name": "nvtx_gpu_proj_sum",
+    "display_name": "NVTX GPU Projection Summary",
+    "description": [
+        "This recipe provides a summary of NVTX time ranges projected from the CPU onto",
+        " the GPU, and their execution times."
+    ],
+    "type": "stats"
+}

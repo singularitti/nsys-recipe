@@ -1,0 +1,9 @@
+{
+    "module_name": "cuda_memcpy_sync",
+    "display_name": "CUDA Synchronous Memcpy",
+    "description": [
+        "This recipe identifies memory transfers that are synchronous. It does not",
+        " include cudaMemcpy*() (no Async suffix) occurred within the same device as",
+        " well as H2D copy kind with a memory block of 64 KB or less."
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "module_name": "cuda_gpu_kern_hist",
+    "display_name": "CUDA GPU Kernel Duration Histogram",
+    "description": [
+        "This recipe represents the probability of the duration of a CUDA kernel among",
+        " all its instances or all kernels in the program."
+    ]
+}

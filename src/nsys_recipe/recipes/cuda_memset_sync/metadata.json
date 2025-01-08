@@ -1,0 +1,8 @@
+{
+    "module_name": "cuda_memset_sync",
+    "display_name": "CUDA Synchronous Memset",
+    "description": [
+        "This recipe identifies synchronous memset operations with pinned host memory or",
+        " Unified Memory region."
+    ]
+}

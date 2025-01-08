@@ -1,0 +1,6 @@
+{
+    "module_name": "osrt_sum",
+    "display_name": "OS Runtime Summary",
+    "description": "This recipe provides a summary of C library functions and their execution times.",
+    "type": "stats"
+}

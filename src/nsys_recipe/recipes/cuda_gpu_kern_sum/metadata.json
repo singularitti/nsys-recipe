@@ -1,0 +1,6 @@
+{
+    "module_name": "cuda_gpu_kern_sum",
+    "display_name": "CUDA GPU Kernel Summary",
+    "description": "This recipe provides a summary of CUDA kernels and their execution times.",
+    "type": "stats"
+}

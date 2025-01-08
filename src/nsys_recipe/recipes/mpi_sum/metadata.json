@@ -1,0 +1,6 @@
+{
+    "module_name": "mpi_sum",
+    "display_name": "MPI Summary",
+    "description": "This recipe provides a summary of MPI functions and their execution times.",
+    "type": "stats"
+}

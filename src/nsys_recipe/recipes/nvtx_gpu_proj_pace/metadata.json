@@ -1,0 +1,8 @@
+{
+    "module_name": "nvtx_gpu_proj_pace",
+    "display_name": "NVTX GPU Projection Pacing",
+    "description": [
+        "This recipe investigates the progress and consistency of a particular NVTX range",
+        " projected from the CPU onto the GPU, throughout the application."
+    ]
+}

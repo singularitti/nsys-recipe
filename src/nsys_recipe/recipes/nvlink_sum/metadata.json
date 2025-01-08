@@ -1,0 +1,7 @@
+{
+    "module_name": "nvlink_sum",
+    "display_name": "NVLink Network Bandwidth Summary",
+    "description": [
+        "This recipe provides a summary of the NVLink network bandwidth."
+    ]
+}

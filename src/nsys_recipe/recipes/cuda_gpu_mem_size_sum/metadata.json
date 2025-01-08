@@ -1,0 +1,9 @@
+{
+    "module_name": "cuda_gpu_mem_size_sum",
+    "display_name": "CUDA GPU MemOps Summary (by Size)",
+    "description": [
+        "This recipe provides a summary of GPU memory operations and the amount of",
+        " memory they utilize."
+    ],
+    "type": "stats"
+}

@@ -1,0 +1,11 @@
+{
+    "module_name": "cuda_gpu_time_util_map",
+    "display_name": "CUDA GPU Time Utilization Heatmap",
+    "description": [
+        "This recipe calculates the percentage of GPU utilization of CUDA kernels. Note",
+        " that the utilization refers to the 'time' utilization and not the 'resource'",
+        " utilization. By default, the recipe calculates consolidated utilization by",
+        " taking the minimum start time and maximum end time for each group of",
+        " overlapping kernel ranges when multiple kernels run concurrently."
+    ]
+}

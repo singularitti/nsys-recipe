@@ -1,0 +1,8 @@
+{
+    "module_name": "nvtx_pace",
+    "display_name": "NVTX Pacing",
+    "description": [
+        "This recipe investigates the progress and consistency of a particular NVTX range",
+        " throughout the application."
+    ]
+}

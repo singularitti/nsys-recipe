@@ -1,0 +1,8 @@
+{
+    "module_name": "cuda_memcpy_async",
+    "display_name": "CUDA Async Memcpy with Pageable Memory",
+    "description": [
+        "This recipe identifies asynchronous memory transfers that end up becoming",
+        " synchronous if the memory is pageable."
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "module_name": "nccl_gpu_proj_sum",
+    "display_name": "NCCL GPU Projection Summary",
+    "description": [
+        "This recipe provides a summary of NCCL functions projected from the CPU onto the",
+        " GPU, and their execution times."
+    ],
+    "type": "stats"
+}

@@ -1,0 +1,10 @@
+{
+    "module_name": "cuda_api_sync",
+    "display_name": "CUDA Synchronization APIs",
+    "description": [
+        "This recipe identifies the following synchronization APIs that block the host",
+        " until the issued CUDA calls are complete:\n",
+        "- cudaDeviceSynchronize()\n",
+        "- cudaStreamSynchronize()"
+    ]
+}

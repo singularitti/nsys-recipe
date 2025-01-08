@@ -1,0 +1,7 @@
+{
+    "module_name": "network_map_aws",
+    "display_name": "AWS Metrics Heatmap",
+    "description": [
+        "This recipe displays heatmaps of AWS EFA metrics."
+    ]
+}

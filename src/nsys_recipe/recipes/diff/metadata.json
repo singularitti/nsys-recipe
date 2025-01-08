@@ -1,0 +1,5 @@
+{
+    "module_name": "diff",
+    "display_name": "Statistics Diff",
+    "description": "This script compares outputs from two runs of the same statistical recipe."
+}

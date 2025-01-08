@@ -1,0 +1,8 @@
+{
+    "module_name": "gpu_metric_util_map",
+    "display_name": "GPU Metric Utilization Heatmap",
+    "description": [
+        "This recipe calculates the percentage of SM Active, SM Issue, and Tensor Active",
+        " metrics."
+    ]
+}

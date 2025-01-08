@@ -1,0 +1,15 @@
+{
+    "module_name": "nvtx_gpu_proj_trace",
+    "display_name": "NVTX GPU Projection Trace",
+    "description": [
+        "This recipe provides a trace of NVTX time ranges projected from the CPU onto",
+        " the GPU. Each NVTX range contains one or more GPU operations. A GPU operation",
+        " is considered to be 'contained' by an NVTX range if the CUDA API call used",
+        " to launch the operation is within the NVTX range. Only ranges that start and",
+        " end on the same thread are taken into account.\n\n",
+
+        "The projected range will have the start timestamp of the first enclosed GPU",
+        " operation and the end timestamp of the last enclosed GPU operation, as well",
+        " as the stack state and relationship to other NVTX ranges."
+    ]
+}

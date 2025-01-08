@@ -1,0 +1,25 @@
+{
+    "module_name": "gpu_time_util",
+    "display_name": "GPU Time Utilization",
+    "description": [
+        "This recipe identifies time regions with low GPU utilization. For each",
+        " process, each GPU device is examined, and a time range is created that starts",
+        " with the beginning of the first GPU operation on that device and ends with the",
+        " end of the last GPU operation on that device. This time range is then divided",
+        " into equal chunks, and the GPU utilization is calculated for each chunk. The",
+        " utilization includes all GPU operations as well as profiling overheads that the",
+        " user cannot address.\n\n",
+
+        "Note that the utilization refers to the 'time' utilization and not the",
+        " 'resource' utilization. This script does not take into account how many GPU",
+        " resources are being used. Therefore, a single running memcpy is considered the",
+        " same amount of 'utilization' as a huge kernel that takes over all the cores.",
+        " If multiple operations run concurrently in the same chunk, their utilization",
+        " will be added up and may exceed 100%.\n\n",
+
+        "Chunks with an in-use percentage less than the threshold value are displayed.",
+        " If consecutive chunks have a low in-use percentage, the individual chunks are",
+        " coalesced into a single display record, keeping the weighted average of",
+        " percentages. This is why returned chunks may have different durations."
+    ]
+}

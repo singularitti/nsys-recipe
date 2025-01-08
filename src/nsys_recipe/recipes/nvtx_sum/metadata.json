@@ -1,0 +1,9 @@
+{
+    "module_name": "nvtx_sum",
+    "display_name": "NVTX Range Summary",
+    "description": [
+        "This recipe provides a summary of NVTX Start/End and Push/Pop Ranges,",
+        " and their execution times."
+    ],
+    "type": "stats"
+}

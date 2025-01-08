@@ -1,0 +1,9 @@
+{
+    "module_name": "cuda_gpu_mem_time_sum",
+    "display_name": "CUDA GPU MemOps Summary (by Time)",
+    "description": [
+        "This recipe provides a summary of GPU memory operations and their execution",
+        " times."
+    ],
+    "type": "stats"
+}

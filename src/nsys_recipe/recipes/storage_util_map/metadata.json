@@ -1,0 +1,7 @@
+{
+    "module_name": "storage_util_map",
+    "display_name": "Storage Metrics Heatmap",
+    "description": [
+        "This recipe displays heatmaps of storage devices metrics."
+    ]
+}

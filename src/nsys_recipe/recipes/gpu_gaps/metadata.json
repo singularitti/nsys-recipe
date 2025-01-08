@@ -1,0 +1,12 @@
+{
+    "module_name": "gpu_gaps",
+    "display_name": "GPU Gaps",
+    "description": [
+        "This recipe identifies time regions where a GPU is idle for longer than a set",
+        " threshold. For each process, each GPU device is examined, and gaps are found",
+        " within the time range that starts with the beginning of the first GPU",
+        " operation on that device and ends with the end of the last GPU operation on",
+        " that device. Profiling overheads are taken into account to exclude GPU gaps",
+        " that cannot be addressed by the user."
+    ]
+}

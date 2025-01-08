@@ -1,0 +1,13 @@
+{
+    "module_name": "nccl_gpu_time_util_map",
+    "display_name": "NCCL GPU Time Utilization Heatmap",
+    "description": [
+        "This recipe calculates the GPU utilization percentage of NCCL and compute",
+        " kernels, as well as the overlap between the two. Note that the utilization",
+        " refers to the 'time' utilization, not the 'resource' utilization. All events",
+        " are consolidated by taking the minimum start time and maximum end time for each",
+        " group of overlapping ranges when multiple events run concurrently. The",
+        " percentage is calculated based on the bin size and will be less than 100%",
+        " unless events run or overlap throughout the entire duration of the bin."
+    ]
+}

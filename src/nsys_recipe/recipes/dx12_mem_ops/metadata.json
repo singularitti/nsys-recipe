@@ -1,0 +1,17 @@
+{
+    "module_name": "dx12_mem_ops",
+    "display_name": "DX12 Memory Operations",
+    "description": [
+        "This recipe identifies memory operations with the following warnings:\n",
+        "1. HEAP_CREATED_WITH_ZEROING\n",
+        "2. COMMITTED_RESOURCE_CREATED_WITH_ZEROING\n",
+        "3. NONEMPTY_MAP_FROM_UPLOAD_HEAP\n",
+        "4. NONEMPTY_MAP_TO_WRITE_COMBINE_PAGE\n",
+        "5. NONEMPTY_UNMAP_TO_READBACK_HEAP\n",
+        "6. NONEMPTY_UNMAP_FROM_WRITE_BACK_PAGE\n",
+        "7. READ_FROM_UPLOAD_HEAP_SUBRESOURCE\n",
+        "8. READ_FROM_SUBRESOURCE_TO_WRITE_COMBINE_PAGE\n",
+        "9. WRITE_TO_READBACK_HEAP_SUBRESOURCE\n",
+        "10. WRITE_TO_SUBRESOURCE_FROM_WRITE_BACK_PAGE"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "module_name": "network_traffic_map",
+    "display_name": "Network Devices Traffic Heatmap",
+    "description": [
+        "This recipe displays heatmaps of sent traffic, received traffic, and congestion events for network devices."
+    ]
+}

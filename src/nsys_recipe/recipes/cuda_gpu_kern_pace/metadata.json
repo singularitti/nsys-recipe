@@ -1,0 +1,8 @@
+{
+    "module_name": "cuda_gpu_kern_pace",
+    "display_name": "CUDA GPU Kernel Pacing",
+    "description": [
+        "This recipe investigates the progress and consistency of a particular CUDA",
+        " kernel throughout the application."
+    ]
+}
