@@ -1,0 +1,25 @@
+[project]
+name = "nsys-recipe"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "singularitti", email = "singularitti@outlook.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "plotly>=5.24.1",
+]
